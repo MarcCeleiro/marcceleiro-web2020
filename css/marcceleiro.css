@@ -102,8 +102,8 @@ li {
 }
 
 .nav-link {
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
   color: #0d0e10;
@@ -201,8 +201,8 @@ li {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  min-height: 128px;
-  padding: 28px 4%;
+  min-height: 100px;
+  padding: 20px 4%;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -241,7 +241,7 @@ li {
 }
 
 .header {
-  padding: 60px 3% 140px;
+  padding: 50px 3% 140px;
 }
 
 .header-title-wrap {
@@ -346,12 +346,13 @@ li {
   background-repeat: no-repeat;
 }
 
-.gallery-section {
+.projectes {
   position: relative;
 }
 
 .gallery-grid {
   margin-right: auto;
+  margin-bottom: 100px;
   margin-left: auto;
   grid-column-gap: 40px;
   grid-row-gap: 40px;
@@ -890,8 +891,9 @@ li {
   margin-bottom: 32px;
 }
 
-.service-section {
-  padding-top: 140px;
+.serveis {
+  margin-bottom: 120px;
+  padding-top: 20px;
   padding-right: 3%;
   padding-left: 3%;
 }
@@ -927,7 +929,7 @@ li {
 
 .emoji-icon {
   width: 36px;
-  margin-left: 6px;
+  margin-left: 10px;
 }
 
 .resume-grid {
@@ -961,7 +963,8 @@ li {
 
 .resume-heading {
   margin-right: 6px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+  color: #0d0e10;
   font-style: normal;
 }
 
@@ -1113,9 +1116,10 @@ li {
 }
 
 .social-grid {
-  grid-column-gap: 24px;
-  -ms-grid-columns: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 0.75fr 0.75fr 0.75fr 0.75fr;
+  grid-template-columns: 0.75fr 0.75fr 0.75fr 0.75fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
@@ -1818,6 +1822,7 @@ li {
   border-radius: 50px;
   background-color: #0d0e10;
   color: #fff;
+  font-size: 16px;
   line-height: 24px;
   font-weight: 500;
   letter-spacing: 0.03em;
@@ -1969,9 +1974,9 @@ li {
   text-decoration: none;
 }
 
-.resume-section {
+.curriculum {
   position: relative;
-  padding: 140px 3% 40px;
+  padding: 20px 3% 40px;
 }
 
 .gallery-wrapper {
@@ -2130,6 +2135,15 @@ li {
 
 .heading-7 {
   margin-bottom: 24px;
+}
+
+.text-block {
+  font-size: 16px;
+}
+
+.image {
+  margin-right: 20px;
+  padding-right: 0px;
 }
 
 @media screen and (max-width: 991px) {
@@ -2447,7 +2461,7 @@ li {
     padding: 80px 10%;
   }
 
-  .service-section {
+  .serveis {
     padding-right: 10%;
     padding-left: 10%;
   }
@@ -2524,7 +2538,7 @@ li {
     margin-right: 0px;
   }
 
-  .resume-section {
+  .curriculum {
     padding-right: 10%;
     padding-left: 10%;
   }
@@ -2550,7 +2564,7 @@ li {
   }
 }
 
-#w-node-f9c28e6c5e6b-b4ef0dec {
+#w-node-_96a2dd4c-3df0-4355-8d67-f9c28e6c5e6b-b4ef0dec {
   -ms-grid-row: span 2;
   grid-row-start: span 2;
   -ms-grid-row-span: 2;
@@ -2562,7 +2576,7 @@ li {
 }
 
 @media screen and (max-width: 767px) {
-  #w-node-fe1e43bbf7aa-b4ef0dec {
+  #w-node-_65b7e2c5-5b97-3dd3-5740-fe1e43bbf7aa-b4ef0dec {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
     -ms-grid-row-span: 1;
@@ -2573,7 +2587,7 @@ li {
     grid-column-end: span 2;
   }
 
-  #w-node-0ddf16846b39-b4ef0dec {
+  #w-node-ef8a5fc1-a302-4842-47e7-0ddf16846b39-b4ef0dec {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
     -ms-grid-row-span: 1;
@@ -2584,7 +2598,7 @@ li {
     grid-column-end: span 2;
   }
 
-  #w-node-d0a603429afd-b4ef0dec {
+  #w-node-e550a814-10d8-7168-7aa3-d0a603429afd-b4ef0dec {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
     -ms-grid-row-span: 1;
@@ -2595,7 +2609,7 @@ li {
     grid-column-end: span 2;
   }
 
-  #w-node-47e4c5d50190-b4ef0dec {
+  #w-node-_5b0eb4fc-0d97-c099-305b-47e4c5d50190-b4ef0dec {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
     -ms-grid-row-span: 1;

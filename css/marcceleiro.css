@@ -892,8 +892,8 @@ li {
 }
 
 .serveis {
-  margin-bottom: 120px;
-  padding-top: 20px;
+  margin-bottom: 100px;
+  padding-top: 40px;
   padding-right: 3%;
   padding-left: 3%;
 }
@@ -1976,7 +1976,7 @@ li {
 
 .curriculum {
   position: relative;
-  padding: 20px 3% 40px;
+  padding: 40px 3%;
 }
 
 .gallery-wrapper {
@@ -2428,7 +2428,7 @@ li {
   }
 
   .header {
-    padding: 20px 10% 100px;
+    padding: 40px 10% 100px;
   }
 
   .title {
@@ -2440,6 +2440,7 @@ li {
   }
 
   .paragraph-display {
+    margin-bottom: 20px;
     font-size: 18px;
   }
 
@@ -2493,8 +2494,20 @@ li {
   }
 
   .social-grid {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 16px;
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
   }
 
   .project-square {
